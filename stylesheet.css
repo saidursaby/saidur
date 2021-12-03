@@ -1,0 +1,26 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: lightcoral;
+    left: 300px;
+    top: 300px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-delay: 2s;
+}
+@keyframes myanimation{
+    0%{background-color: lime;left: 0px;top: 0px;border-radius: 0%;}
+    25%{background-color: rgb(129, 118, 15);left: 300px;top: 0px;border-radius: 0% 50% 0% 0%;}
+    50%{background-color: rgb(255, 0, 0);left:300px;top: 400px;border-radius: 0% 50% 0% 50%;}
+    75%{background-color: rgb(126, 241, 126);left: 0px;top: 400px;border-radius: 0% 50% 50% 0%;}
+    100%{background-color: blue(117, 124, 117, 0.801);left: 0px;top: 0px;border-radius:50% 50% 50% 50%;}
+    
+}
+
+
+
+
